@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Search</title>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <div class="links-container">
+          <table class="links-table">
+                <tr>
+                    <td><a href="images.html" class="links">Image Search&ensp;</a></td>
+                    <td><a href="advanced.html" class="links">Advanced Search</a></td>
+                </tr>
+          </table>
+      </div><br>
+      <div class="logo">
+          <img src="https://www.google.com/logos/doodles/2021/get-vaccinated-wear-a-mask-save-lives-december-14-copy-6753651837109586-2xa.gif" alt="Get Vaccinated" width="100%">
+      </div>
+      <div class="search-container">
+        <form method="get" action="http://www.google.com/search">
+            <input type="text" name="q"><br>
+            <input type="submit" value="Google Search">
+            <a href="https://www.google.com/doodles"><input type="button" value="I'm Feeling Lucky"></a>
+        </form>
+       </div>
+  </body>
+</html>
